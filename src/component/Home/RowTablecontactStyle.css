@@ -1,0 +1,8 @@
+.Contactshome{
+    width: 100%;
+    /* background-color: rgb(220, 141, 38); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

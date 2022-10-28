@@ -1,0 +1,108 @@
+.Rowtablehome{
+    width: 90%;
+    background-color:#fff;
+    /* height: 50px; */
+}
+
+.Rowtable{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 30px;
+    border-bottom: 1px solid #909090;
+    /* background-color: aquamarine; */
+    
+}
+
+.Rowtablecontact{
+    display: flex;
+    margin-right: 20px;
+    /* background-color: blueviolet; */
+    gap: 15px;
+    font-size: 1.1rem;
+    width: 80%;
+    /* margin-left: 30px; */
+}
+
+
+.Rowtablebtn{
+
+    width: 30%;
+    /* margin-right: 20px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    /* background-color: rgb(240, 255, 243); */
+}
+
+
+.btmhome{
+    border: none;
+    padding: 12px 20px;
+    background-color: rgb(0,80,153);
+    color: white;
+    border-radius: 10px;
+    /* margin: 20px 1000px; */
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .Rowtablehome{
+        width: 95%;
+        background-color:#fff;
+        /* height: 50px; */
+    }
+
+    .btmhome{
+        border: none;
+        padding: 12px 5px;
+        outline: none;
+        background-color: #FFF;
+        color: #000;
+       font-size: 16px;
+        /* margin: 20px 1000px; */
+        
+    }
+     }
+
+
+     @media screen and (max-width: 426px) {
+
+        .Rowtablehome{
+            width: 90%;
+            /* background-color:rgb(235, 97, 97); */
+            display: flex;
+            flex-direction: column;
+            /* height: 50px; */
+        }
+
+        .Rowtable{
+           display: flex;
+           flex-direction: column;
+            /* background-color:/ aquamarine; */
+            
+        }
+
+        .Rowtablecontact{
+            
+            /* background-color: rgb(43, 226, 49); */
+            width: 100%;
+            flex-direction: column;
+        }
+
+        .Rowtablebtn{
+
+            width: 100%;
+            /* margin-right: 20px; */
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            gap: 15px;
+            /* background-color: rgb(240, 255, 243); */
+        }
+
+        
+         }
