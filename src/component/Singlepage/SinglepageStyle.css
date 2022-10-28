@@ -1,0 +1,43 @@
+.Containersinglepage {
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    gap: 2px;
+    font-size: 18px;
+}
+
+.Itemsinglepage {
+    background-color: blue;
+    width: 30%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+} 
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .Itemsinglepage {
+ 
+        width: 40%;
+       
+    } 
+    
+     }
+
+     @media screen and (max-width: 768px) {
+
+        .Itemsinglepage {
+     
+            width:50%;
+           
+        } 
+        
+         }
