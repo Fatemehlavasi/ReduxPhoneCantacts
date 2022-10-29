@@ -6,7 +6,7 @@ const HederLeayout = ()=>{
 
         <Link to={"/"}>
             <div >
-                <button className="btnback"><i class="fa-solid fa-rotate-left"></i></button>
+                <button className="btnback"><i class="fa-solid fa-rotate-left">Back</i></button>
             </div>
         </Link>
     )
