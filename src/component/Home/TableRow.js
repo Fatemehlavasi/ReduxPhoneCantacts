@@ -34,17 +34,17 @@ const TableRow = ({contact}) =>{
                 </div>
                 <div className="Rowtablebtn" >
                     <button className="btmhome" onClick={()=> handeldelete (contact.id)}>
-                    <i class="fa-solid fa-trash"></i>
+                    <i class="fa-solid fa-trash">Del</i>
                     </button>
                     <Link to={`/updateContact/${contact.id}`}>
                         <button  className="btmhome">
-                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-pen-to-square">up</i>
                         </button>
                     </Link>
                 
                     <Link to ={`/Contacts/${contact.id}`}>
                         <button  className="btmhome">
-                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-eye">info</i>
                         </button>
                     </Link>
                 </div>
